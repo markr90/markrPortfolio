@@ -1,0 +1,236 @@
+body {
+    font-size: 1.2rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #f2fcff;
+}
+
+h2 {
+    font-weight:300;
+}
+
+.navbar {
+    background-color: #163640;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+    color: #d1d1d1;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.fancy-toggler {
+    border-color: #d1d1d1;
+}
+
+.fancy-toggler:hover {
+    border-color: white;
+}
+
+.fancy-toggler:focus {
+    border-color: #d1d1d1;
+    outline: 0;
+}
+
+.fancy-toggler.collapsed:hover {
+    border-color: white;
+}
+
+.fancy-toggler.activeToggle {
+    border-color: white;
+}
+
+.fancy-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(209, 209, 209, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.portfolioHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.vertCenter {    
+    margin: auto;
+}
+
+.profilePic {
+    border-radius: 5px;
+    height: auto;
+    max-width:100%;
+}
+
+@media (max-width: 992px) {
+    .portfolioTitle { text-align:center }
+}
+
+@media (max-width: 992px) {
+    .portfolioImage { 
+        text-align: center 
+    }
+    .profilePic {
+        width: 50%;
+    }
+}
+  
+@media (max-width: 992px) {
+    .portfolioName { font-size: 50px; }
+    .portfolioSubtitle { font-size: 30px; }
+}
+
+.infoSection {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.credentialEntry {    
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.credentialEntry h3 {    
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.credentialEntry h5 {    
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.credentialEntry h6 {    
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.credentialEntry .fas,
+.credentialEntry .far {
+    font-size: 60px;
+}
+
+.sectionHeader {
+    padding-bottom: 10px;
+}
+
+.infoSection-alt {
+    background-color: #163640;
+    color: white;
+}
+
+.skillsList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px);
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.skillsEntry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.skillsEntry h6 {
+    margin: 10px auto;
+    font-weight: 300;
+    text-align:center;
+}
+
+.devicon {
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+}
+
+.devicon i {
+    line-height: 100%;
+    font-size: 60px;
+    margin: 0 auto;
+    color: #ffe380;
+}
+
+
+.footer {
+    font-weight: 300;
+    font-size: 1rem;
+    text-align:center;
+}
+
+.socialLinks {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socialLink a {
+    font-size: 50px;
+    color: white;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.socialLink a:hover {
+    text-decoration: none;
+}
+
+.contactForm h1 {
+    color: black;
+    font-weight: 300;
+}
+
+.contactForm {
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #d1d1d1;
+    padding: 2%;
+}
+
+#sendEmail {
+    background-color: #8c1132;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+    width: 20%;
+}
+
+.contactForm #message {
+    height: 200px;;
+}
+
+@media (max-width: 768px) {
+    .contactForm {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .contactForm {
+        width: 75%;
+    }
+}
+
+hr {
+    width: 60%;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+}
