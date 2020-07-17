@@ -242,20 +242,23 @@ hr {
     font-size: 16px;
 }
 
-.projectEntry img {
+.projectScreenshot img {
     width: 100%;
+    height: auto;
 }
 
 @media (max-width: 768px) { 
     .projectEntry .projectScreenshot {
         display: flex;
+        align-items: flex-start; 
         justify-content: center;
     }   
     .projectEntry .projectDescription {
         text-align: center;
     }   
-    .projectEntry img {
+    .projectScreenshot img {
         width: 50%;
+        height: auto;
         padding-bottom: 10px;
     }
 }
