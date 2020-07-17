@@ -212,8 +212,8 @@ h2 {
     width: 20%;
 }
 
-.contactForm #message {
-    height: 200px;;
+.contactForm #messageBox {
+    height: 200px;
 }
 
 @media (max-width: 768px) {
