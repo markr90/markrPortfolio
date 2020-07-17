@@ -1,8 +1,8 @@
 # Portfolio page
 
-Link to page: 
+Link to page: https://mark-r.netlify.app/
 
-Simple static portfolio built using: [netlify link](https://mark-r.netlify.app/)
+Simple static portfolio built using: 
 
 - Bootstrap, jQuery
 - CSS
