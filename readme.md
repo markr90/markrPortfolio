@@ -8,3 +8,5 @@ Simple static portfolio built using: [netlify link](https://mark-r.netlify.app/)
 - CSS
 - Javascript
 - [Devicon](https://konpa.github.io/devicon/)
+
+![Alt text](portfolio_screenshots/this_website.jpg?raw=true "Portfolio Screenshot")
